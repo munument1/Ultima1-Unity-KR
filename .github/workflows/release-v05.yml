@@ -9,7 +9,6 @@ on:
       - 'release_build/v05_package_b64/**'
       - 'release_build/v05_package_b64_fix/**'
       - 'release_build/upstream_state.json'
-      - 'README.md'
   workflow_dispatch:
 
 permissions:
@@ -72,6 +71,12 @@ jobs:
         run: |
           cat > RELEASE_NOTES.md <<'EOF'
           Ultima I Unity 2026-09-13 빌드 대응 한국어 패치 v0.5입니다.
+
+          주의: 원본 게임은 2026-10-11에 새 빌드를 배포했습니다.
+          이 v0.5 델타 패치는 2026-09-13 원본 SHA-256에만 적용되며,
+          2026-10-11 빌드와의 호환성은 검증되지 않았습니다.
+          해시 검사를 우회하거나 새 버전 파일에 강제 적용하지 마십시오.
+          원본 업데이트: https://archiveofmyth.itch.io/ultima-unity/devlog/1702879/new-release-and-update-to-the-game-10112026
 
           주요 변경
           - 기존 한국어 문자열 1,332개를 최신 DLL 구조로 재이식
