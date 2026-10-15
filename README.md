@@ -4,6 +4,10 @@ Ultima I Unity의 비공식 한국어 패치입니다.
 
 현재 최신 버전은 **v0.5**이며, **2026-09-13 Ultima I Unity 빌드**를 대상으로 합니다.
 
+> [!WARNING]
+> **2026년 10월 11일에 [Ultima I Unity 신규 원본 빌드](https://archiveofmyth.itch.io/ultima-unity/devlog/1702879/new-release-and-update-to-the-game-10112026)가 공개되었습니다.** 현재 한국어 패치 `v0.5`는 그 빌드에 대응하는 패치가 아닙니다. 한국어판 최신 릴리즈와 원본 게임 최신 빌드는 서로 다릅니다.
+> 아래 SHA-256이 정확히 일치하는 **2026-09-13 기준 원본에만** 패치를 적용하십시오. 새 빌드를 이용하는 경우, 호환 버전의 한국어 패치가 별도로 검증될 때까지 기존 델타 패치를 강제로 적용하거나 해시 검사를 우회하지 마십시오.
+
 ## 현재 적용 범위
 
 - 게임 UI 및 주요 시스템 문구 한국어화
@@ -16,7 +20,7 @@ Ultima I Unity의 비공식 한국어 패치입니다.
 
 ## 설치
 
-1. GitHub Releases에서 `Ultima1Unity_Korean_v0.5_DeltaPatch.zip`을 받습니다.
+1. [한국어 패치 릴리즈](https://github.com/munument1/-KR-ULTIMA1-UNITY/releases/tag/v0.5)에서 `Ultima1Unity_Korean_v0.5_DeltaPatch.zip`을 받습니다. **2026-09-13 빌드 전용**임을 먼저 확인하십시오.
 2. 압축 안의 파일을 `Ultima I Unity.exe`가 있는 게임 폴더에 풉니다.
 3. `Install_Korean_Patch.bat`를 실행합니다.
 4. 설치기가 원본 파일의 SHA-256을 확인한 뒤 자동 백업하고 패치를 적용합니다.
@@ -26,7 +30,7 @@ Ultima I Unity의 비공식 한국어 패치입니다.
 - `Ultima.Runtime.dll`: `d08f5bb3e02c0ecdab37d4c99200984a8a1979d0be6c5a835f9e2b4449fa6852`
 - `resources.assets`: `472e002b9fd4e1479614a54ea64e70cebfe5cb5e0f3b67aa1368abdc259c3f49`
 
-패치는 원본 게임 파일 전체를 포함하지 않고 **변경 데이터만 포함하는 델타 패치**입니다. 지원하는 게임 빌드와 파일 해시가 다르면 설치가 중단됩니다.
+패치는 원본 게임 파일 전체를 포함하지 않고 **변경 데이터만 포함하는 델타 패치**입니다. 지원하는 게임 빌드와 파일 해시가 다르면 설치가 중단됩니다. 이는 정상적인 안전장치이므로 다른 빌드에 맞추려고 원본 파일을 바꾸거나 해시 검사를 제거하지 마십시오.
 
 v0.5 원본 백업은 각 파일 옆에 `.u1k-original-v0.5` 확장자로 생성됩니다.
 
