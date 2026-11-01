@@ -1,11 +1,14 @@
 {
   "itch_project": "https://archiveofmyth.itch.io/ultima-unity",
-  "upload_id": "19228780",
+  "upload_id": "19704696",
   "filename": "Ultima I Unity.zip",
-  "archive_size": 374929171,
-  "ultima_runtime_sha256": "d08f5bb3e02c0ecdab37d4c99200984a8a1979d0be6c5a835f9e2b4449fa6852",
-  "ultima_runtime_size": 1275904,
-  "resources_assets_sha256": "472e002b9fd4e1479614a54ea64e70cebfe5cb5e0f3b67aa1368abdc259c3f49",
-  "resources_assets_size": 3880556,
-  "checked_at": "2026-09-15"
+  "archive_size": 434933321,
+  "ultima_runtime_sha256": "7a2125c2fabcf96ab4f6babd17fb76b3cdd688b94c0e88602ef5933c8aa2efe3",
+  "ultima_runtime_size": 1735168,
+  "resources_assets_sha256": "f47660f028688a1a3f58ebf4b6f65d50acf258b3b909e869227cf30d2cd7283f",
+  "resources_assets_size": 13253964,
+  "checked_at": "2026-11-02",
+  "archive_sha256": "9edf26c1f692a93ecf7a6fa51c083ef2261193f15eec26a7b3f0368090375bc4",
+  "korean_release": "v0.6",
+  "game_screen_verified": false
 }
