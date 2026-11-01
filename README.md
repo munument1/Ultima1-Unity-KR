@@ -1,8 +1,30 @@
+# Ultima I Unity 한국어 패치 v0.6
+
+현재 원본 itch.io 업로드 **19704696**에 대응하는 부분 번역 배포입니다. 기존 v0.5 패치를 새 빌드에 덮어쓰지 마세요. [원본 게임](https://archiveofmyth.itch.io/ultima-unity)을 새 폴더에 압축 해제한 뒤 이 패키지를 `Ultima I Unity.exe` 옆에 풀고 `Install_Korean_Patch.bat`를 실행하세요. Python이나 .NET SDK 설치는 필요하지 않습니다.
+
+- DLL에서 문맥이 동일한 번역 632곳을 이식했습니다. 내부 식별자 위험이 있는 435곳과 변경된 메서드 205개는 자동 이식하지 않아 영어가 남습니다.
+- 기존 위치·상점 JSON 번역 1,125곳을 유지합니다.
+- Galmuri11의 현대 한글 11,172자를 포함하고 동적 폰트 경로를 연결했습니다.
+- 원본 SHA-256이 다르면 적용을 거부합니다. 전체 파일을 미리 구성·검증한 뒤 설치하며 `.u1k-original-v06` 원본 백업을 유지합니다. `Restore_Korean_Patch.bat`로 복원할 수 있습니다. 이전 패치를 적용한 폴더에는 설치하지 마세요.
+
+DLL 및 폰트 재생성의 바이트 일치, 비대상 메서드·Unity 오브젝트 보존, 화면 없는 시작 시험을 통과했습니다. **실제 한글 화면·레이아웃·게임 진행·저장/불러오기는 검증하지 않았습니다. 완전 번역 또는 모든 문제 해결을 보증하는 배포가 아닙니다.** 관련 이슈 #3·#4는 사용자 요청으로 이번 배포 후 종료합니다.
+
+원본 DLL SHA-256: `7a2125c2fabcf96ab4f6babd17fb76b3cdd688b94c0e88602ef5933c8aa2efe3`
+
+원본 resources.assets SHA-256: `f47660f028688a1a3f58ebf4b6f65d50acf258b3b909e869227cf30d2cd7283f`
+
+폰트: Galmuri11, SIL Open Font License 1.1. 동봉 라이선스를 참조하세요. 전체 원본 게임 파일은 포함하지 않습니다.
+
+
+---
+
+## 이전 v0.5 기록 (아래 내용은 이전 빌드용)
+
 # Ultima I Unity 한국어 패치
 
 Ultima I Unity의 비공식 한국어 패치입니다.
 
-현재 최신 버전은 **v0.5**이며, **2026-09-13 Ultima I Unity 빌드**를 대상으로 합니다.
+이전 버전은 **v0.5**이며, **2026-09-13 Ultima I Unity 빌드**를 대상으로 합니다.
 
 > [!WARNING]
 > **2026년 10월 11일에 [Ultima I Unity 신규 원본 빌드](https://archiveofmyth.itch.io/ultima-unity/devlog/1702879/new-release-and-update-to-the-game-10112026)가 공개되었습니다.** 현재 한국어 패치 `v0.5`는 그 빌드에 대응하는 패치가 아닙니다. 한국어판 최신 릴리즈와 원본 게임 최신 빌드는 서로 다릅니다.
